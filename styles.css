@@ -13,6 +13,51 @@
     color:green
 }
 /*Exercise 4*/
-.container :nth-child(2) :last-of-type(span){
+.container div:nth-child(2) span:last-of-type{
     color:blue;
+}
+/*Exercise 5*/
+
+.container div:nth-child(6) span:not(:last-of-type){
+    color:yellow;
+}
+/*Exercise 6*/
+.container div{
+    position: relative;
+}
+.container div span:first-of-type{
+    position: absolute;
+    bottom: -18px;
+    padding-left: 25px;;
+}
+/*Exercise 7*/
+.container div{
+    position: relative;}
+.container div span:nth-child(2){
+    position:absolute;
+    padding-left: 25px;
+    top:-18px;
+}
+/*Exercise 8*/
+.container div{
+    position: relative;}
+.container div:last-of-type span:last-of-type{
+    position:absolute;
+    right: -20px;
+    top:18px;
+}
+/*Exercise 9*/
+.container div{
+    position: relative;}
+.container div:first-of-type span:first-of-type{
+    position:absolute;
+    right: 75px;
+    top:18px;
+}
+/*Exercise 10*/
+.container{
+    font-size: 0;
+}
+.container div{
+    font-size: 1rem;
 }
