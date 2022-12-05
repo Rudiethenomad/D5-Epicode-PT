@@ -1,0 +1,18 @@
+/*Exercise 1*/
+.container div{
+    display: inline-block;
+}
+
+/*Exercise 2*/
+
+.container :nth-child(even){
+    border-color:red ;
+}
+/*Exercise 3*/
+.container span:nth-child(2n+2) {
+    color:green
+}
+/*Exercise 4*/
+.container :nth-child(2) :last-of-type(span){
+    color:blue;
+}
